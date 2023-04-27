@@ -5,6 +5,16 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>ETT</name>
   <description>简易定时任务框架</description>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+  <dependencies>
+	  <dependency>
+		<groupId>com.taobao.arthas</groupId>
+		<artifactId>fastjson</artifactId>
+		<version>1.2.80-fix</version>
+	</dependency>
+  </dependencies>  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
